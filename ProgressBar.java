@@ -208,7 +208,7 @@ public class ProgressBar {
 	}
 
 	/**
-	 * Prints the bar from {@link getBar()} to command line
+	 * Prints the bar from {@link ProgressBar#getBar()} to command line
 	 */
 	public void print()
 	{
