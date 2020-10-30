@@ -5,7 +5,7 @@ public class ProgressBar {
 	private double completed = 0;
 
 	private long currentTime = System.currentTimeMillis();
-	private double amountChanged = 1;
+	private double amountChanged = 0;
 	private int timeLeft = -1;
 
 	/**
