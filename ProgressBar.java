@@ -1,3 +1,5 @@
+package me.element.test;
+
 public class ProgressBar {
 
 	private double totalPct;
@@ -42,10 +44,10 @@ public class ProgressBar {
 	}
 
 	/**
-	 * This will add specified amount of ticks to the completed amount
-	 * @throws IllegalArgumentException ticks required to be at least one
-	 * @param pct how many ticks to add
+	 * 
+	 * @param how many ticks to add
 	 * @return current progress bar
+	 * @throws IllegalArgumentException ticks required to be at least one
 	 */
 	public ProgressBar addCompleted(double pct) throws IllegalArgumentException
 	{
@@ -70,9 +72,9 @@ public class ProgressBar {
 	/**
 	 * This will remove specified amount of ticks of the completed amount
 	 * @deprecated suggested to not remove from the bar
-	 * @throws IllegalArgumentException can't remove zero or less ticks
 	 * @param pct how many ticks to remove
 	 * @return current progress bar
+	 * @throws IllegalArgumentException can't remove zero or less ticks
 	 */
 	public ProgressBar removeCompleted(double pct) throws IllegalArgumentException
 	{
@@ -98,9 +100,9 @@ public class ProgressBar {
 	/**
 	 * This will set the amount of the completed task bar to the exact amount passed in
 	 * @deprecated suggested to use addCompleted instead
-	 * @throws IllegalArgumentException can't set total amount completed to less than zero
 	 * @param pct how many ticks to add
 	 * @return current progress bar
+	 * @throws IllegalArgumentException can't set total amount completed to less than zero
 	 */
 	public ProgressBar setCompleted(double pct) throws IllegalArgumentException
 	{
@@ -113,9 +115,9 @@ public class ProgressBar {
 	/**
 	 * This will set the total amount of ticks
 	 * @deprecated suggested to keep bars total ticks the same after set
-	 * @throws IllegalArgumentException ticks required to be at least one
 	 * @param pct how many ticks to add
 	 * @return current progress bar
+	 * @throws IllegalArgumentException ticks required to be at least one
 	 */
 	public ProgressBar setTotalPct(double totalPct) throws IllegalArgumentException
 	{
