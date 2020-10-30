@@ -1,5 +1,3 @@
-package me.element.test;
-
 public class ProgressBar {
 
 	private double totalPct;
